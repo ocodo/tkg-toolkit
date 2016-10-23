@@ -1,132 +1,132 @@
 [
-	{
-		"name": "GH60 RevA/B/C",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "gh60-reva_b_c.hex" },
-			{ "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-reva_b_c-no_console.hex" },
-			{ "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
-		]
-	},
-	{
-		"name": "GH60 RevCHN",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "gh60-revchn.hex" },
-			{ "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-revchn-no_console.hex" },
-			{ "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
+  {
+    "name": "GH60 RevA/B/C",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "gh60-reva_b_c.hex" },
+      { "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-reva_b_c-no_console.hex" },
+      { "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
+    ]
+  },
+  {
+    "name": "GH60 RevCHN/Satan",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "gh60-revchn.hex" },
+      { "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-revchn-no_console.hex" },
+      { "name": "satan-ocodo", "mcu": "atmega32u4", "file": "satan_ocodo.hex" },
+      { "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
 
-		]
-	},
-	{
-		"name": "GHPad",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "ghpad.hex" },
-			{ "name": "No-Console", "mcu": "atmega32u4", "file": "ghpad-no_console.hex" },
-			{ "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
+    ]
+  },
+  {
+    "name": "GHPad",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "ghpad.hex" },
+      { "name": "No-Console", "mcu": "atmega32u4", "file": "ghpad-no_console.hex" },
+      { "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
 
-		]
-	},
-	{
-		"name": "Fantastic60",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "fantastic60.hex" }
-		]
-	},
-	{
-		"name": "SMART68",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "smart68.hex" }
-		]
-	},
-	{
-		"name": "RedScarfII",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "redscarfii.hex" },
-			{ "name": "No-Console", "mcu": "atmega32u4", "file": "redscarfii-no_console.hex" }
-		]
-	},
-	{
-		"name": "RedScarfII+",
-		"bootloader": [ "hid" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "redscarfii+.hex" },
-			{ "name": "No-Console", "mcu": "atmega32u4", "file": "redscarfii+-no_console.hex" }
-		]
-	},
-	{
-		"name": "LR94",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "lr94.hex" }
-		]
-	},
-	{
-		"name": "AKB96",
-		"bootloader": [ "lufa_dfu", "arduino" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "akb96.hex" }
-		]
-	},
-	{
-		"name": "TentaPad",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u2", "file": "tentapad.hex" }
-		]
-	},
-	{
-		"name": "Staryu",
-		"bootloader": [ "atmel_dfu" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u2", "file": "staryu.hex" },
-			{ "name": "Lite", "mcu": "atmega16u2", "file": "staryu-lite.hex" }
-		]
-	},
-	{
-		"name": "Kimera",
-		"bootloader": [ "atmel_dfu", "arduino" , "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "kimera.hex" },
-			{ "name": "Two-Headed", "mcu": "atmega32u4", "file": "kimera-two_headed.hex" }
-		]
-	},
-	{
-		"name": "Kimera Core",
-		"bootloader": [ "atmel_dfu", "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "kimera-core.hex" },
-			{ "name": "No-Console", "mcu": "atmega32u4", "file": "kimera-core-no_console.hex" },
-			{ "name": "Two-Headed", "mcu": "atmega32u4", "file": "kimera-core-two_headed.hex" },
-			{ "name": "Two-Headed No-Console", "mcu": "atmega32u4", "file": "kimera-core-two_headed-no_console.hex" }
-		]
-	},
-	{
-		"name": "USB2USB",
-		"bootloader": [ "atmel_dfu", "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "usb2usb.hex" }
-		]
-	},
-	{
-		"name": "ErgoDone",
-		"bootloader": [ "hid", "lufa_dfu" , "arduino" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "ergodone.hex" },
-			{ "name": "Prototype", "mcu": "atmega32u4", "file": "ergodone-prototype.hex" }
-		]
-	},
-	{
-		"name": "CW40",
-		"bootloader": [ "hid", "lufa_dfu" ],
-		"firmware": [
-			{ "name": "Default", "mcu": "atmega32u4", "file": "cw40.hex" },
-			{ "name": "Prototype", "mcu": "atmega32u4", "file": "cw40-prototype.hex" }
-		]
-	}
+    ]
+  },
+  {
+    "name": "Fantastic60",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "fantastic60.hex" }
+    ]
+  },
+  {
+    "name": "SMART68",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "smart68.hex" }
+    ]
+  },
+  {
+    "name": "RedScarfII",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "redscarfii.hex" },
+      { "name": "No-Console", "mcu": "atmega32u4", "file": "redscarfii-no_console.hex" }
+    ]
+  },
+  {
+    "name": "RedScarfII+",
+    "bootloader": [ "hid" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "redscarfii+.hex" },
+      { "name": "No-Console", "mcu": "atmega32u4", "file": "redscarfii+-no_console.hex" }
+    ]
+  },
+  {
+    "name": "LR94",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "lr94.hex" }
+    ]
+  },
+  {
+    "name": "AKB96",
+    "bootloader": [ "lufa_dfu", "arduino" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "akb96.hex" }
+    ]
+  },
+  {
+    "name": "TentaPad",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u2", "file": "tentapad.hex" }
+    ]
+  },
+  {
+    "name": "Staryu",
+    "bootloader": [ "atmel_dfu" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u2", "file": "staryu.hex" },
+      { "name": "Lite", "mcu": "atmega16u2", "file": "staryu-lite.hex" }
+    ]
+  },
+  {
+    "name": "Kimera",
+    "bootloader": [ "atmel_dfu", "arduino" , "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "kimera.hex" },
+      { "name": "Two-Headed", "mcu": "atmega32u4", "file": "kimera-two_headed.hex" }
+    ]
+  },
+  {
+    "name": "Kimera Core",
+    "bootloader": [ "atmel_dfu", "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "kimera-core.hex" },
+      { "name": "No-Console", "mcu": "atmega32u4", "file": "kimera-core-no_console.hex" },
+      { "name": "Two-Headed", "mcu": "atmega32u4", "file": "kimera-core-two_headed.hex" },
+      { "name": "Two-Headed No-Console", "mcu": "atmega32u4", "file": "kimera-core-two_headed-no_console.hex" }
+    ]
+  },
+  {
+    "name": "USB2USB",
+    "bootloader": [ "atmel_dfu", "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "usb2usb.hex" }
+    ]
+  },
+  {
+    "name": "ErgoDone",
+    "bootloader": [ "hid", "lufa_dfu" , "arduino" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "ergodone.hex" },
+      { "name": "Prototype", "mcu": "atmega32u4", "file": "ergodone-prototype.hex" }
+    ]
+  },
+  {
+    "name": "CW40",
+    "bootloader": [ "hid", "lufa_dfu" ],
+    "firmware": [
+      { "name": "Default", "mcu": "atmega32u4", "file": "cw40.hex" },
+      { "name": "Prototype", "mcu": "atmega32u4", "file": "cw40-prototype.hex" }
+    ]
+  }
 ]
-
