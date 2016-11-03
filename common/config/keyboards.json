@@ -15,6 +15,7 @@
       { "name": "Default", "mcu": "atmega32u4", "file": "gh60-revchn.hex" },
       { "name": "No-Console", "mcu": "atmega32u4", "file": "gh60-revchn-no_console.hex" },
       { "name": "satan-ocodo", "mcu": "atmega32u4", "file": "satan_ocodo.hex" },
+      { "name": "satan-gabe", "mcu": "atmega32u4", "file": "satan_gabe.hex" },
       { "name": "AVRISP mkII", "mcu": "atmega32u4", "file": "gh60-avrisp_mkii.hex" }
 
     ]
